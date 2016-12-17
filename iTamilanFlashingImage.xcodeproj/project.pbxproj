@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97E9E0951E05832B009FFB06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E0941E05832B009FFB06 /* main.m */; };
+		97E9E0981E05832B009FFB06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E0971E05832B009FFB06 /* AppDelegate.m */; };
+		97E9E09B1E05832B009FFB06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E09A1E05832B009FFB06 /* ViewController.m */; };
+		97E9E09E1E05832B009FFB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E9E09C1E05832B009FFB06 /* Main.storyboard */; };
+		97E9E0A11E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E09F1E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodeld */; };
+		97E9E0A31E05832B009FFB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E9E0A21E05832B009FFB06 /* Assets.xcassets */; };
+		97E9E0A61E05832B009FFB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E9E0A41E05832B009FFB06 /* LaunchScreen.storyboard */; };
+		97E9E0B11E05832B009FFB06 /* iTamilanFlashingImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E0B01E05832B009FFB06 /* iTamilanFlashingImageTests.m */; };
+		97E9E0BC1E05832B009FFB06 /* iTamilanFlashingImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E0BB1E05832B009FFB06 /* iTamilanFlashingImageUITests.m */; };
+		97E9E0CD1E058555009FFB06 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E9E0CC1E058555009FFB06 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97E9E0AD1E05832B009FFB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97E9E0881E05832B009FFB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E9E08F1E05832B009FFB06;
+			remoteInfo = iTamilanFlashingImage;
+		};
+		97E9E0B81E05832B009FFB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97E9E0881E05832B009FFB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E9E08F1E05832B009FFB06;
+			remoteInfo = iTamilanFlashingImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97E9E0901E05832B009FFB06 /* iTamilanFlashingImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTamilanFlashingImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E9E0941E05832B009FFB06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97E9E0961E05832B009FFB06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97E9E0971E05832B009FFB06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97E9E0991E05832B009FFB06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97E9E09A1E05832B009FFB06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97E9E09D1E05832B009FFB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97E9E0A01E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTamilanFlashingImage.xcdatamodel; sourceTree = "<group>"; };
+		97E9E0A21E05832B009FFB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97E9E0A51E05832B009FFB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97E9E0A71E05832B009FFB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E9E0AC1E05832B009FFB06 /* iTamilanFlashingImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTamilanFlashingImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E9E0B01E05832B009FFB06 /* iTamilanFlashingImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTamilanFlashingImageTests.m; sourceTree = "<group>"; };
+		97E9E0B21E05832B009FFB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E9E0B71E05832B009FFB06 /* iTamilanFlashingImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTamilanFlashingImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E9E0BB1E05832B009FFB06 /* iTamilanFlashingImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTamilanFlashingImageUITests.m; sourceTree = "<group>"; };
+		97E9E0BD1E05832B009FFB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E9E0CC1E058555009FFB06 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97E9E08D1E05832B009FFB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9E0CD1E058555009FFB06 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E9E0A91E05832B009FFB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E9E0B41E05832B009FFB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97E9E0871E05832B009FFB06 = {
+			isa = PBXGroup;
+			children = (
+				97E9E0921E05832B009FFB06 /* iTamilanFlashingImage */,
+				97E9E0AF1E05832B009FFB06 /* iTamilanFlashingImageTests */,
+				97E9E0BA1E05832B009FFB06 /* iTamilanFlashingImageUITests */,
+				97E9E0911E05832B009FFB06 /* Products */,
+				97E9E0CB1E058555009FFB06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97E9E0911E05832B009FFB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97E9E0901E05832B009FFB06 /* iTamilanFlashingImage.app */,
+				97E9E0AC1E05832B009FFB06 /* iTamilanFlashingImageTests.xctest */,
+				97E9E0B71E05832B009FFB06 /* iTamilanFlashingImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97E9E0921E05832B009FFB06 /* iTamilanFlashingImage */ = {
+			isa = PBXGroup;
+			children = (
+				97E9E0961E05832B009FFB06 /* AppDelegate.h */,
+				97E9E0971E05832B009FFB06 /* AppDelegate.m */,
+				97E9E0991E05832B009FFB06 /* ViewController.h */,
+				97E9E09A1E05832B009FFB06 /* ViewController.m */,
+				97E9E09C1E05832B009FFB06 /* Main.storyboard */,
+				97E9E0A21E05832B009FFB06 /* Assets.xcassets */,
+				97E9E0A41E05832B009FFB06 /* LaunchScreen.storyboard */,
+				97E9E0A71E05832B009FFB06 /* Info.plist */,
+				97E9E09F1E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodeld */,
+				97E9E0931E05832B009FFB06 /* Supporting Files */,
+			);
+			path = iTamilanFlashingImage;
+			sourceTree = "<group>";
+		};
+		97E9E0931E05832B009FFB06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97E9E0941E05832B009FFB06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97E9E0AF1E05832B009FFB06 /* iTamilanFlashingImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				97E9E0B01E05832B009FFB06 /* iTamilanFlashingImageTests.m */,
+				97E9E0B21E05832B009FFB06 /* Info.plist */,
+			);
+			path = iTamilanFlashingImageTests;
+			sourceTree = "<group>";
+		};
+		97E9E0BA1E05832B009FFB06 /* iTamilanFlashingImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97E9E0BB1E05832B009FFB06 /* iTamilanFlashingImageUITests.m */,
+				97E9E0BD1E05832B009FFB06 /* Info.plist */,
+			);
+			path = iTamilanFlashingImageUITests;
+			sourceTree = "<group>";
+		};
+		97E9E0CB1E058555009FFB06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E9E0CC1E058555009FFB06 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97E9E08F1E05832B009FFB06 /* iTamilanFlashingImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E9E0C01E05832B009FFB06 /* Build configuration list for PBXNativeTarget "iTamilanFlashingImage" */;
+			buildPhases = (
+				97E9E08C1E05832B009FFB06 /* Sources */,
+				97E9E08D1E05832B009FFB06 /* Frameworks */,
+				97E9E08E1E05832B009FFB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTamilanFlashingImage;
+			productName = iTamilanFlashingImage;
+			productReference = 97E9E0901E05832B009FFB06 /* iTamilanFlashingImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97E9E0AB1E05832B009FFB06 /* iTamilanFlashingImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E9E0C31E05832B009FFB06 /* Build configuration list for PBXNativeTarget "iTamilanFlashingImageTests" */;
+			buildPhases = (
+				97E9E0A81E05832B009FFB06 /* Sources */,
+				97E9E0A91E05832B009FFB06 /* Frameworks */,
+				97E9E0AA1E05832B009FFB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97E9E0AE1E05832B009FFB06 /* PBXTargetDependency */,
+			);
+			name = iTamilanFlashingImageTests;
+			productName = iTamilanFlashingImageTests;
+			productReference = 97E9E0AC1E05832B009FFB06 /* iTamilanFlashingImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97E9E0B61E05832B009FFB06 /* iTamilanFlashingImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E9E0C61E05832B009FFB06 /* Build configuration list for PBXNativeTarget "iTamilanFlashingImageUITests" */;
+			buildPhases = (
+				97E9E0B31E05832B009FFB06 /* Sources */,
+				97E9E0B41E05832B009FFB06 /* Frameworks */,
+				97E9E0B51E05832B009FFB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97E9E0B91E05832B009FFB06 /* PBXTargetDependency */,
+			);
+			name = iTamilanFlashingImageUITests;
+			productName = iTamilanFlashingImageUITests;
+			productReference = 97E9E0B71E05832B009FFB06 /* iTamilanFlashingImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97E9E0881E05832B009FFB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Tamilarasu;
+				TargetAttributes = {
+					97E9E08F1E05832B009FFB06 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					97E9E0AB1E05832B009FFB06 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97E9E08F1E05832B009FFB06;
+					};
+					97E9E0B61E05832B009FFB06 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97E9E08F1E05832B009FFB06;
+					};
+				};
+			};
+			buildConfigurationList = 97E9E08B1E05832B009FFB06 /* Build configuration list for PBXProject "iTamilanFlashingImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97E9E0871E05832B009FFB06;
+			productRefGroup = 97E9E0911E05832B009FFB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97E9E08F1E05832B009FFB06 /* iTamilanFlashingImage */,
+				97E9E0AB1E05832B009FFB06 /* iTamilanFlashingImageTests */,
+				97E9E0B61E05832B009FFB06 /* iTamilanFlashingImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97E9E08E1E05832B009FFB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9E0A61E05832B009FFB06 /* LaunchScreen.storyboard in Resources */,
+				97E9E0A31E05832B009FFB06 /* Assets.xcassets in Resources */,
+				97E9E09E1E05832B009FFB06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E9E0AA1E05832B009FFB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E9E0B51E05832B009FFB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97E9E08C1E05832B009FFB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9E0A11E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodeld in Sources */,
+				97E9E09B1E05832B009FFB06 /* ViewController.m in Sources */,
+				97E9E0981E05832B009FFB06 /* AppDelegate.m in Sources */,
+				97E9E0951E05832B009FFB06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E9E0A81E05832B009FFB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9E0B11E05832B009FFB06 /* iTamilanFlashingImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E9E0B31E05832B009FFB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9E0BC1E05832B009FFB06 /* iTamilanFlashingImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97E9E0AE1E05832B009FFB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97E9E08F1E05832B009FFB06 /* iTamilanFlashingImage */;
+			targetProxy = 97E9E0AD1E05832B009FFB06 /* PBXContainerItemProxy */;
+		};
+		97E9E0B91E05832B009FFB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97E9E08F1E05832B009FFB06 /* iTamilanFlashingImage */;
+			targetProxy = 97E9E0B81E05832B009FFB06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97E9E09C1E05832B009FFB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E9E09D1E05832B009FFB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97E9E0A41E05832B009FFB06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E9E0A51E05832B009FFB06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97E9E0BE1E05832B009FFB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97E9E0BF1E05832B009FFB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97E9E0C11E05832B009FFB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTamilanFlashingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itamil.iTamilanFlashingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97E9E0C21E05832B009FFB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTamilanFlashingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itamil.iTamilanFlashingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97E9E0C41E05832B009FFB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTamilanFlashingImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itamil.iTamilanFlashingImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTamilanFlashingImage.app/iTamilanFlashingImage";
+			};
+			name = Debug;
+		};
+		97E9E0C51E05832B009FFB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTamilanFlashingImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itamil.iTamilanFlashingImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTamilanFlashingImage.app/iTamilanFlashingImage";
+			};
+			name = Release;
+		};
+		97E9E0C71E05832B009FFB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iTamilanFlashingImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itamil.iTamilanFlashingImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iTamilanFlashingImage;
+			};
+			name = Debug;
+		};
+		97E9E0C81E05832B009FFB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iTamilanFlashingImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itamil.iTamilanFlashingImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iTamilanFlashingImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97E9E08B1E05832B009FFB06 /* Build configuration list for PBXProject "iTamilanFlashingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E9E0BE1E05832B009FFB06 /* Debug */,
+				97E9E0BF1E05832B009FFB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E9E0C01E05832B009FFB06 /* Build configuration list for PBXNativeTarget "iTamilanFlashingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E9E0C11E05832B009FFB06 /* Debug */,
+				97E9E0C21E05832B009FFB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97E9E0C31E05832B009FFB06 /* Build configuration list for PBXNativeTarget "iTamilanFlashingImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E9E0C41E05832B009FFB06 /* Debug */,
+				97E9E0C51E05832B009FFB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97E9E0C61E05832B009FFB06 /* Build configuration list for PBXNativeTarget "iTamilanFlashingImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E9E0C71E05832B009FFB06 /* Debug */,
+				97E9E0C81E05832B009FFB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97E9E09F1E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97E9E0A01E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodel */,
+			);
+			currentVersion = 97E9E0A01E05832B009FFB06 /* iTamilanFlashingImage.xcdatamodel */;
+			path = iTamilanFlashingImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97E9E0881E05832B009FFB06 /* Project object */;
+}
